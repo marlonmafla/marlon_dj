@@ -481,3 +481,177 @@ footer .arriba{
         width: 100%;
     }
 }
+
+
+
+
+.portfolio .galeria .proyecto img {
+    width: 115%;
+    display: block;
+}
+
+
+
+.portfolio .galeria .proyecto img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.inicio .contenido-banner img {
+    width: 100%;
+    max-width: 300px; /* Ajusta esto según tu diseño */
+    height: auto;
+    border-radius: 10%; /* Opcional */
+    margin: 0 auto;
+}
+@media screen and (max-width: 700px) {
+    .portfolio .galeria .proyecto img {
+        width: 100%;
+        height: auto;
+    }
+    .inicio .contenido-banner img {
+        width: 80%; /* Ajusta según sea necesario */
+        max-width: none;
+    }
+}
+
+
+
+.portfolio .galeria .proyecto img {
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+}
+
+.portfolio .galeria .proyecto img:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la imagen */
+}
+
+
+.portfolio .galeria .proyecto {
+    position: relative;
+    overflow: hidden; /* Asegúrate de que el contenido no desborde */
+}
+
+.portfolio .galeria .proyecto .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6); /* Ajusta la opacidad */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.portfolio .galeria .proyecto:hover .overlay {
+    opacity: 1; /* Aparece suavemente al hacer hover */
+}
+
+
+.portfolio .galeria .proyecto img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio .galeria .proyecto:hover img {
+    transform: scale(1.1); /* Amplía ligeramente la imagen */
+}
+.portfolio .galeria .proyecto img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.portfolio .galeria .proyecto:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+.portfolio .galeria .proyecto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen dentro de su contenedor */
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio .galeria .proyecto:hover img {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.portfolio .galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-items: center; /* Alinea las imágenes al centro */
+    margin-top: 20px; /* Añade un margen superior si es necesario */
+}
+
+.portfolio .galeria .proyecto {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio .galeria .proyecto img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Asegura que las imágenes se ajusten sin deformarse */
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio .galeria .proyecto:hover img {
+    transform: scale(1.05);
+}
+
+
+.portfolio .galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-items: center; /* Alinea las imágenes al centro */
+    margin-top: 20px; /* Añade un margen superior si es necesario */
+}
+
+.portfolio .galeria .proyecto {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio .galeria .proyecto img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Asegura que las imágenes se ajusten sin deformarse */
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio .galeria .proyecto:hover img {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio .galeria {
+        grid-template-columns: repeat(1, 1fr); /* Una columna para pantallas más pequeñas */
+    }
+}
