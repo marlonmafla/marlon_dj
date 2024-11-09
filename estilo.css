@@ -655,3 +655,20 @@ img {
         grid-template-columns: repeat(1, 1fr); /* Una columna para pantallas más pequeñas */
     }
 }
+
+
+
+
+
+/* Estilo para el color de la barra de progreso en Chrome, Safari, y Opera */
+audio::-webkit-media-controls-panel {
+    background-color: #1e2326; /* Cambia el color del panel de controles */
+    border: none;
+}
+
+/* Cambiar color de la barra de progreso en Firefox */
+audio::-moz-progress-bar {
+    background-color: #1e2326bb; /* Cambia el color de la barra de progreso */
+    border: none;
+}
+
