@@ -120,6 +120,7 @@ html{
     color: #fff;
     padding: 50px 20px;
 }
+
 .curriculum .contenido-seccion{
     max-width: 1100px;
     margin: auto;
@@ -672,3 +673,97 @@ audio::-moz-progress-bar {
     border: none;
 }
 
+
+.curriculum2{
+    background: #1e2326;
+    color: #fff;
+    text-align: center;
+}
+
+.curriculum2 h2{
+    color: #1CB698;
+}
+.curriculum2 h2{
+    color: #1CB698;
+}
+.curriculum2 .h2{
+    color: #ffffff;
+}
+.curriculum2 .p{
+    font-size: 15px;
+    color: #ffffff85;
+}
+
+.oe{
+    position: relative;
+    top: 70px;
+}
+
+.curriculum2 h1{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+#curriculum2 img {
+    width: 700px !important;
+    height: 200px !important;
+    background: #1e2326;
+    width: 100%;   /* Esto hará que la imagen ocupe todo el ancho de la sección */
+    max-width: 600px; /* Puedes ajustar el tamaño máximo si lo necesitas */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen se muestre como bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+
+
+}
+
+@media (max-width: 600px) {
+    #curriculum22 {
+        font-size: 1.5rem; /* Reduce el tamaño del título */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Reduce el tamaño de los subtítulos */
+    }
+
+    p {
+        font-size: 0.9rem; /* Reduce el tamaño de los párrafos */
+    }
+
+    #curriculum2 img {
+        max-width: 100%; /* Asegura que la imagen ocupe el 100% del contenedor en móviles */
+    }
+}
+
+/* Para pantallas medianas (tabletas) */
+@media (max-width: 768px) {
+    #curriculum22 {
+        font-size: 1.75rem; /* Tamaño de fuente para tabletas */
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+/* Para pantallas grandes (pantallas de escritorio) */
+@media (min-width: 1024px) {
+    #curriculum22 {
+        font-size: 2.5rem; /* Tamaño de fuente más grande para pantallas grandes */
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+}
